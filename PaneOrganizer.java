@@ -1,4 +1,4 @@
-package codeAlong5;
+package codeAlong6;
 
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -11,7 +11,15 @@ public class PaneOrganizer {
 
     public PaneOrganizer() {
         this.root = new BorderPane();
+        this.setUp();
     }
+
+    private void setUp(){
+        Pane cloudPane = new Pane();
+        this.root.setCenter(cloudPane);
+        new Game(cloudPane);
+    }
+
 
     public Pane getRoot() {
         return this.root;
