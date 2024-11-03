@@ -1,4 +1,4 @@
-package codeAlong5;
+package codeAlong6;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
