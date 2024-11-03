@@ -1,4 +1,4 @@
-package codeAlong5;
+package codeAlong6;
 
 public class Constants {
     public static final int SCENE_WIDTH = 900;
